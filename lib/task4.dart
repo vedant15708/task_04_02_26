@@ -83,14 +83,9 @@ class DashCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.purple.shade200, width: 1.5),
+        border: Border.all(color: Colors.deepPurple.shade200, width: 1.5),
         boxShadow: [
-          BoxShadow(
-            color: Colors.deepPurple,
-            blurRadius: 10,
-            spreadRadius: -5,
-            offset: const Offset(0, 10),
-          ),
+          BoxShadow(color: Colors.deepPurple, offset: const Offset(0, 3)),
         ],
       ),
       child: ClipRRect(
